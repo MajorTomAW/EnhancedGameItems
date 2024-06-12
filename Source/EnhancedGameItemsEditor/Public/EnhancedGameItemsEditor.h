@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "AssetTypeCategories.h"
+#include "Factories/Factory.h"
 #include "Modules/ModuleManager.h"
 #include "EnhancedGameItemsEditor.generated.h"
 

@@ -33,6 +33,7 @@ public class EnhancedGameItemsEditor : ModuleRules
                 "Slate",
                 "SlateCore",
                 "EnhancedGameItems",
+                "UnrealEd",
             }
         );
     }

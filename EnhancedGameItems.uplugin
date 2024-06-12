@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "1.0",
+	"VersionName": "1.1",
 	"FriendlyName": "Enhanced Game Items",
 	"Description": "Fully modular Game Items, including a custom Thumbnail Renderer and other useful stuff in the Editor.",
 	"Category": "Gameplay",
@@ -23,7 +23,7 @@
 		{
 			"Name": "EnhancedGameItemsEditor",
 			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit"
+			"LoadingPhase": "PreDefault"
 		}
 	],
 	"TargetPlatforms": [

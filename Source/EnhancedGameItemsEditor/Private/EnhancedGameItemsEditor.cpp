@@ -3,9 +3,11 @@
 #include "AssetToolsModule.h"
 #include "ClassViewerFilter.h"
 #include "ClassViewerModule.h"
+#include "EnhancedGameItems.h"
 #include "IAssetTools.h"
 #include "AssetActions/EnhancedGameItemsActions.h"
 #include "GameItems/EnhancedGameItemDefinition.h"
+#include "GameItems/EnhancedWorldGameItemDefinition.h"
 #include "Kismet2/SClassPickerDialog.h"
 #include "Style/EnhancedGameItemsEditorStyle.h"
 #include "ThumbnailRenderer/EnhancedGameItemsThumbnailRenderer.h"
@@ -79,7 +81,7 @@ public:
 };
 
 ////////////////////////////////////////////////////////////////////
-// Asset factories
+// Asset factories 
 UEnhancedGameItemDefinition_Factory::UEnhancedGameItemDefinition_Factory(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
@@ -133,5 +135,5 @@ UObject* UEnhancedGameItemDefinition_Factory::FactoryCreateNew(
 	}
 }
 
-
 #undef LOCTEXT_NAMESPACE
+

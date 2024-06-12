@@ -15,4 +15,14 @@ UCLASS(DisplayName = "World Game Item Definition")
 class ENHANCEDGAMEITEMS_API UEnhancedWorldGameItemDefinition : public UEnhancedGameItemDefinition
 {
 	GENERATED_BODY()
+
+public:
+	UEnhancedWorldGameItemDefinition(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
+
+public:
+	/**
+	 * Actor class that will be spawned by this item
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "World Game Item")
+	TSoftClassPtr<AActor> WorldGameItemActor;
 };

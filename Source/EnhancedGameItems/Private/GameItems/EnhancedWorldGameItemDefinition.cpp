@@ -2,3 +2,9 @@
 
 
 #include "GameItems/EnhancedWorldGameItemDefinition.h"
+
+
+UEnhancedWorldGameItemDefinition::UEnhancedWorldGameItemDefinition(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
+}

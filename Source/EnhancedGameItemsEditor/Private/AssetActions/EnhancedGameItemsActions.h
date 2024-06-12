@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "EnhancedGameItemsEditor.h"
 #include "AssetTypeActions/AssetTypeActions_DataAsset.h"
 
 
@@ -19,7 +20,7 @@ public:
 	virtual FColor GetTypeColor() const override;
 	virtual FText GetDisplayNameFromAssetData(const FAssetData& AssetData) const override;
 	virtual uint32 GetCategories() override {return FEnhancedGameItemsEditorModule::GetGameItemsAssetsCategory(); }
-	//~ End IAssetTypeActions Interface
+	//~ End IAssetTypeActions Interfacey
 
 private:
 	TSharedRef<ISlateStyle> Style;
