@@ -18,6 +18,7 @@ public:
 	virtual FText GetAssetDescription(const FAssetData& AssetData) const override;
 	virtual FColor GetTypeColor() const override;
 	virtual FText GetDisplayNameFromAssetData(const FAssetData& AssetData) const override;
+	virtual uint32 GetCategories() override {return FEnhancedGameItemsEditorModule::GetGameItemsAssetsCategory(); }
 	//~ End IAssetTypeActions Interface
 
 private:

@@ -59,7 +59,7 @@ public:
 	* The release state of the item.
 	* Used to determine if the asset manager should find the item.
 	*/
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Managements")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Managements")
 	EEnhancedGameItemReleaseState ReleaseState;
 
 	/**

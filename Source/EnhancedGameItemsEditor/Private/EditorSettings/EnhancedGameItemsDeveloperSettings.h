@@ -61,5 +61,5 @@ public:
 	 * For example, if you have a class named NiceItemDefinition, you may want to remove the "Nice" prefix and only display it as Item Definition
 	 */
 	UPROPERTY(Config, EditAnywhere, Category = "Game Items", meta = (ForceInlineRow))
-	TArray<FString> FilterKeywords{TEXT("World"), TEXT("Enhanced")};
+	TArray<FString> FilterKeywords{TEXT("World"), TEXT("Enhanced"), TEXT("Definition")};
 };
