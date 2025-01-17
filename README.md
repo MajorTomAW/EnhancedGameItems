@@ -1,3 +1,5 @@
+📝This plugin is DEPRECATED and has been replaced with [Itemization Core](https://github.com/MajorTomAW/ItemizationCore)
+
 # Enhanced Game Items
 
 Provides ``Primary Data Assets`` with custom Thumbnail Renderer and more usefull stuff.  
